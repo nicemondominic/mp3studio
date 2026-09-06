@@ -286,7 +286,7 @@ Before running MP3 Studio, install:
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/nicemondominic/MP3_Studio.git
+git clone https://github.com/nicemondominic/mp3studio.git
 cd MP3_Studio
 ```
 
