@@ -1,0 +1,75 @@
+# MP3 Studio - Git Ignore
+
+# Generated audio/output files
+assets/output/
+assets/output/*
+
+# User presets
+presets/
+assets/presets/
+*.preset
+*.presets
+*.json.preset
+
+# Local/user configuration
+config.local.*
+settings.local.*
+*.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build files
+build/
+dist/
+*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Local FFmpeg-generated temporary files
+*.wav.tmp
+*.mp3.tmp
+*.m4a.tmp
+
+# User-specific media files accidentally placed in the project
+*.mp3
+*.wav
+*.flac
+*.aac
+*.m4a
+*.ogg
+*.opus
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.bat
+
